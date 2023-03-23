@@ -9,7 +9,7 @@ public class Developer extends Person implements GamingCommunityMember {
     @Override
     public void handleGamePublishing(Game game) {
         System.out.println("I'm " + getName() + " and I'm " + getAge()
-                + " years old GAMER.\nI liked the new game called " + game.name()
+                + " years old DEVELOPER.\nI liked the new game called " + game.name()
                 + " so much that that I memorized her system requirements:\n"
                 + String.join(",\n", game.systemRequirements()) + "\n"
         );
